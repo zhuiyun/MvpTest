@@ -1,6 +1,12 @@
 package com.jbstore.cloud.mvp.model;
 
+import com.google.gson.JsonObject;
 import com.jbstore.cloud.mvp.net.RetrofitUtils;
+
+import io.reactivex.Observer;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.schedulers.Schedulers;
+
 
 /**
  * Created by gwy on 2018/1/23.
@@ -9,8 +15,8 @@ import com.jbstore.cloud.mvp.net.RetrofitUtils;
  */
 
 public class WeatherModel {
-    public void getWeather(String city){
-        RetrofitUtils.getRequest().loadDataByRetrofitRxjava(city);
+    public void getWeather(Observer<JsonObject> observer, String city){
+        RetrofitUtils.getRequest().getCall().observeOn(AndroidSchedulers.mainThread()).subscribeOn(Schedulers.io()).subscribe(observer);
     }
 
 }
