@@ -16,6 +16,7 @@ public class LoginContract {
 
     public interface  LoginModel{
         void login(String name,String password,LoginCallBack callBack);
+        void saveData();
     }
 
     public interface  LoginCallBack{
