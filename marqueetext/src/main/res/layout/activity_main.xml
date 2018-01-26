@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jbstore.cloud.marqueetext.MainActivity">
+
+    <EditText
+        android:padding="8dp"
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:background="@drawable/text_shape"
+        android:hint="输入要显示的文字"
+        />
+
+    <TextView
+        android:clickable="true"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:background="@drawable/shape_btn"
+        android:id="@+id/selectColor"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文字颜色" />
+    <TextView
+        android:clickable="true"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="@drawable/shape_btn"
+        android:id="@+id/selectColor1"
+        android:textSize="14sp"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文字背景颜色" />
+
+    <Button
+        android:id="@+id/showText"
+        android:background="@drawable/shape_btn"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示文字" />
+
+
+</LinearLayout>
