@@ -3,9 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MvpTest.iml" filepath="$PROJECT_DIR$/MvpTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animbutton/animbutton.iml" filepath="$PROJECT_DIR$/animbutton/animbutton.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bitmaptest_del/bitmaptest_del.iml" filepath="$PROJECT_DIR$/bitmaptest_del/bitmaptest_del.iml" />
+      <module fileurl="file://$PROJECT_DIR$/classtest/classtest.iml" filepath="$PROJECT_DIR$/classtest/classtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/marqueetext/marqueetext.iml" filepath="$PROJECT_DIR$/marqueetext/marqueetext.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvp/mvp.iml" filepath="$PROJECT_DIR$/mvp/mvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerviewmodel/recyclerviewmodel.iml" filepath="$PROJECT_DIR$/recyclerviewmodel/recyclerviewmodel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/textanimation/textanimation.iml" filepath="$PROJECT_DIR$/textanimation/textanimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/threadpool/threadpool.iml" filepath="$PROJECT_DIR$/threadpool/threadpool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewtest/viewtest.iml" filepath="$PROJECT_DIR$/viewtest/viewtest.iml" />
     </modules>
   </component>
 </project>

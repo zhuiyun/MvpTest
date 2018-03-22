@@ -24,7 +24,7 @@ public abstract class IPresenter<T extends IView> {
         mView=new WeakReference<T>(view);
     }
 
-    private void detach(){
+    public void detach(){
         mView=null;
         mView.clear();
     }

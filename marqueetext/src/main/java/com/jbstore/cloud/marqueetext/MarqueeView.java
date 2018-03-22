@@ -89,6 +89,8 @@ public class MarqueeView  extends SurfaceView implements SurfaceHolder.Callback{
             measurementsText(msg);
         }
     }
+
+
     protected void measurementsText(String msg) {
         margueeString=msg;
         mTextPaint.setTextSize(mTextSize);

@@ -8,9 +8,17 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/animbutton" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bitmaptest_del" />
+            <option value="$PROJECT_DIR$/classtest" />
             <option value="$PROJECT_DIR$/marqueetext" />
             <option value="$PROJECT_DIR$/mvp" />
+            <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/recyclerviewmodel" />
+            <option value="$PROJECT_DIR$/textanimation" />
+            <option value="$PROJECT_DIR$/threadpool" />
+            <option value="$PROJECT_DIR$/viewtest" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
