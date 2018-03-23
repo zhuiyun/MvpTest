@@ -1,19 +1,18 @@
 package xyz.zhuiyun.cloud.classtest;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
     LetterSideView sideView;
     TextView tv;
     TextView textView;
     int i=1;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tv=findViewById(R.id.tv);
