@@ -11,11 +11,15 @@
             <option value="$PROJECT_DIR$/animbutton" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/bitmaptest_del" />
+            <option value="$PROJECT_DIR$/butterknife_annotion" />
+            <option value="$PROJECT_DIR$/butterknifelib" />
             <option value="$PROJECT_DIR$/classtest" />
             <option value="$PROJECT_DIR$/ioclibrary" />
+            <option value="$PROJECT_DIR$/lbutterknife_copmpiler" />
             <option value="$PROJECT_DIR$/marqueetext" />
             <option value="$PROJECT_DIR$/mvp" />
             <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/mybutterknife" />
             <option value="$PROJECT_DIR$/recyclerviewmodel" />
             <option value="$PROJECT_DIR$/textanimation" />
             <option value="$PROJECT_DIR$/threadpool" />

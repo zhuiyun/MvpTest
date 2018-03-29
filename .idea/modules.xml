@@ -6,11 +6,15 @@
       <module fileurl="file://$PROJECT_DIR$/animbutton/animbutton.iml" filepath="$PROJECT_DIR$/animbutton/animbutton.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/bitmaptest_del/bitmaptest_del.iml" filepath="$PROJECT_DIR$/bitmaptest_del/bitmaptest_del.iml" />
+      <module fileurl="file://$PROJECT_DIR$/butterknife_annotion/butterknife_annotion.iml" filepath="$PROJECT_DIR$/butterknife_annotion/butterknife_annotion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/butterknifelib/butterknifelib.iml" filepath="$PROJECT_DIR$/butterknifelib/butterknifelib.iml" />
       <module fileurl="file://$PROJECT_DIR$/classtest/classtest.iml" filepath="$PROJECT_DIR$/classtest/classtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/ioclibrary/ioclibrary.iml" filepath="$PROJECT_DIR$/ioclibrary/ioclibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lbutterknife_copmpiler/lbutterknife_copmpiler.iml" filepath="$PROJECT_DIR$/lbutterknife_copmpiler/lbutterknife_copmpiler.iml" />
       <module fileurl="file://$PROJECT_DIR$/marqueetext/marqueetext.iml" filepath="$PROJECT_DIR$/marqueetext/marqueetext.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvp/mvp.iml" filepath="$PROJECT_DIR$/mvp/mvp.iml" />
       <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybutterknife/mybutterknife.iml" filepath="$PROJECT_DIR$/mybutterknife/mybutterknife.iml" />
       <module fileurl="file://$PROJECT_DIR$/recyclerviewmodel/recyclerviewmodel.iml" filepath="$PROJECT_DIR$/recyclerviewmodel/recyclerviewmodel.iml" />
       <module fileurl="file://$PROJECT_DIR$/textanimation/textanimation.iml" filepath="$PROJECT_DIR$/textanimation/textanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/threadpool/threadpool.iml" filepath="$PROJECT_DIR$/threadpool/threadpool.iml" />

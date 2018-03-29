@@ -1,1 +1,1 @@
-include ':app', ':mvp', ':marqueetext', ':myapplication', ':textanimation', ':bitmaptest_del', ':viewtest', ':threadpool', ':animbutton', ':recyclerviewmodel', ':classtest', ':ioclibrary'
+include ':app', ':mvp', ':marqueetext', ':myapplication', ':textanimation', ':bitmaptest_del', ':viewtest', ':threadpool', ':animbutton', ':recyclerviewmodel', ':classtest', ':ioclibrary', ':mybutterknife', ':butterknife_annotion', ':lbutterknife_copmpiler', ':butterknifelib', ':butterknifelib'
