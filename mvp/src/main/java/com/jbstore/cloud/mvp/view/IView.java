@@ -9,4 +9,6 @@ package com.jbstore.cloud.mvp.view;
 public interface IView {
     void showLoading();
     void hideLoading();
+    void onError();
+    void onSuccess();
 }

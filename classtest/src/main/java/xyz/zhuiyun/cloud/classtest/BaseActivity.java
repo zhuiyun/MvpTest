@@ -32,8 +32,9 @@ public class BaseActivity extends AppCompatActivity {
             public View onCreateView(View parent, String name, Context context, AttributeSet attrs) {
                 Log.e("gao1", "onCreateView: "+name);
                 Log.e("gao1", "onCreateView: "+parent);
+
                 if(name.equals("Button")){
-                    Button button=new Button(BaseActivity.this);
+                    Button button=new Button(BaseActivity.this,attrs);
                     button.setText("fgsdgsdg");
 
                     button.setBackgroundColor(Color.RED);

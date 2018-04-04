@@ -2,7 +2,9 @@ package com.jbstore.cloud.mvp.presenter;
 
 import com.jbstore.cloud.mvp.view.IView;
 
-import java.lang.ref.WeakReference;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
 
 /**
  * Created by gwy on 2018/1/23.
@@ -10,23 +12,31 @@ import java.lang.ref.WeakReference;
  * @author:zhuiyun
  */
 
-public abstract class IPresenter<T extends IView> {
-    private WeakReference<T> mView;
+public  class IPresenter<T extends IView> {
+    private T mView,mProxyView;
 
     public T getView() {
-        if(mView!=null){
-            return mView.get();
-        }
-        return null;
+
+        return  mProxyView;
     }
 
     public void attachView(T view){
-        mView=new WeakReference<T>(view);
+        this.mView= view;
+        mProxyView = (T)Proxy.newProxyInstance(view.getClass().getClassLoader(), view.getClass().getInterfaces(), new InvocationHandler() {
+            @Override
+            public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+                if(mView==null){
+                    return null;
+                }
+                return method.invoke(mView,args);
+            }
+        });
+//        mView=new WeakReference<T>(view);
     }
 
     public void detach(){
         mView=null;
-        mView.clear();
+        mProxyView=null;
     }
 
 

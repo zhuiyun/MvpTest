@@ -1,7 +1,10 @@
 package com.jbstore.cloud.mvp;
 
 import android.os.Bundle;
+import android.os.Looper;
 import android.util.Log;
+import android.view.LayoutInflater;
+import android.widget.Toast;
 
 import com.jbstore.cloud.mvp.bean.Tranlation;
 import com.jbstore.cloud.mvp.presenter.IPresenter;
@@ -16,9 +19,18 @@ public class MainActivity extends BaseActivity implements WeatherView {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+    LayoutInflater.from()
 
         ((WeatherPresenter) getPresenter()).getData("wuhan");
+        new Thread(){
+            @Override
+            public void run() {
+                super.run();
+                Looper.prepare();
+                Toast.makeText(MainActivity.this, "111", Toast.LENGTH_SHORT).show();
+                Looper.loop();
+            }
+        }.start();
     }
 
     @Override
@@ -42,6 +54,16 @@ public class MainActivity extends BaseActivity implements WeatherView {
     @Override
     public void hideLoading() {
         Log.e("gao", "hideLoading: ");
+
+    }
+
+    @Override
+    public void onError() {
+
+    }
+
+    @Override
+    public void onSuccess() {
 
     }
 }

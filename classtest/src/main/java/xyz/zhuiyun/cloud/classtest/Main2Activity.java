@@ -1,5 +1,6 @@
 package xyz.zhuiyun.cloud.classtest;
 
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -28,8 +29,25 @@ public class Main2Activity extends AppCompatActivity {
         ViewUtils.inject(this);
         mTextView.setText("IOC");
         btn1.setText("fsdgsdg");
+        AsyncTask<Void, Void, Void> asyncTask = new AsyncTask<Void, Void, Void>() {
+            @Override
+            protected void onPostExecute(Void aVoid) {
+                super.onPostExecute(aVoid);
+                Log.e("gao", "onPostExecute: "+Thread.currentThread());
+            }
 
+            @Override
+            protected void onProgressUpdate(Void... values) {
+                super.onProgressUpdate(values);
+                Log.e("gao", "onProgressUpdate: "+Thread.currentThread());
+            }
 
+            @Override
+            protected Void doInBackground(Void... voids) {
+                return null;
+            }
+        };
+       asyncTask.execute();
 
 
     }

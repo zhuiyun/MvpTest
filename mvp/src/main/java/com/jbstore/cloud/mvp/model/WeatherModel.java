@@ -17,6 +17,7 @@ import io.reactivex.schedulers.Schedulers;
 public class WeatherModel {
     public void getWeather(Observer<JsonObject> observer, String city){
         RetrofitUtils.getRequest().getCall().observeOn(AndroidSchedulers.mainThread()).subscribeOn(Schedulers.io()).subscribe(observer);
+
     }
 
 }

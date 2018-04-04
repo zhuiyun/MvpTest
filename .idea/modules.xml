@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/mvp/mvp.iml" filepath="$PROJECT_DIR$/mvp/mvp.iml" />
       <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybutterknife/mybutterknife.iml" filepath="$PROJECT_DIR$/mybutterknife/mybutterknife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permision/permision.iml" filepath="$PROJECT_DIR$/permision/permision.iml" />
       <module fileurl="file://$PROJECT_DIR$/recyclerviewmodel/recyclerviewmodel.iml" filepath="$PROJECT_DIR$/recyclerviewmodel/recyclerviewmodel.iml" />
       <module fileurl="file://$PROJECT_DIR$/textanimation/textanimation.iml" filepath="$PROJECT_DIR$/textanimation/textanimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/threadpool/threadpool.iml" filepath="$PROJECT_DIR$/threadpool/threadpool.iml" />
